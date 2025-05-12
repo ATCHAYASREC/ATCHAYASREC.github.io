@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    img, audio, video {
+      margin: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+    }
+
+    video {
+      width: 500px;
+    }
+
+    audio {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HTML Media Example</h1>
+
+  <!-- Image -->
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d9/fa/1b/lost-valley.jpg?w=900&h=500&s=1" alt="Sample Image"><br>
+
+  <!-- Audio -->
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg"><br>
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video -->
+  <video controls>
+    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
